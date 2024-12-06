@@ -48,3 +48,25 @@ Search Contacts:
 Allows searching by partial or full first and last name.
 
 Displays the matching contacts in alphabetical order.
+
+# Code Overview
+
+The program is structured into several functions to modularize the tasks:
+
+load_contacts(): Loads the contact list from the contacts.json file.
+
+save_contacts(): Saves the contact list to the contacts.json file.
+
+is_valid_phone_number(phone_number): Validates that a phone number contains exactly 10 digits.
+
+is_valid_email(email): Validates that an email address is in a valid format.
+
+add_contact(contacts): Adds a new contact to the list, ensuring that all data is valid.
+
+delete_contact(contacts): Deletes a contact based on the first and last name.
+
+list_contacts(contacts): Lists all contacts in alphabetical order.
+
+search_contacts(contacts): Searches for contacts using the given first and last name.
+
+main(): The main loop that runs the command-line interface.
