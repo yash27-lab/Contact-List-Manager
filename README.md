@@ -70,3 +70,21 @@ list_contacts(contacts): Lists all contacts in alphabetical order.
 search_contacts(contacts): Searches for contacts using the given first and last name.
 
 main(): The main loop that runs the command-line interface.
+
+# Validations and Error Handling
+
+Phone Numbers: Must contain exactly 10 digits; otherwise, the program will reject the input.
+
+Emails: Must follow a standard email format; otherwise, the program will reject the input.
+
+Duplicate Contacts: The program ensures that no two contacts have the same first and last names.
+
+Confirmation Prompts: For deleting a contact, the user must confirm the action.
+
+# Future Enhancements
+
+User Authentication: Add a login system to allow multiple users to manage their own contacts.
+
+Graphical User Interface (GUI): Implement a GUI to make the program more user-friendly.
+
+Export/Import Contacts: Allow exporting contacts to CSV or importing contacts from external files.
