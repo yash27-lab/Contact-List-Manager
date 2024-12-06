@@ -1,8 +1,8 @@
-Overview
+# Overview
 
 The Contact List program is a simple command-line application that allows users to manage their personal contacts. The program supports adding, deleting, listing, and searching contacts, and all contact information is stored persistently in a JSON file. The application ensures that each contact is unique by requiring a unique combination of first and last names.
 
-Features
+# Features
 
 The application provides the following commands:
 
@@ -21,7 +21,7 @@ Data Persistence
 Contacts are stored persistently in a contacts.json file, allowing the data to be retained between program executions. This is achieved by reading the contacts from the JSON file when the program starts and saving them when the program ends.
 
 
-ommands and Validation
+# Commands and Validation
 
 Add a Contact:
 
